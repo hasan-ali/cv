@@ -26,7 +26,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Hassan and I'm a graduate student 
 
-  I am most skilled in: <mark>Cell Culture</mark> and <mark>Organoids</mark>
+  I am most skilled in: <mark>Cancer Metabolism</mark> and <mark>Organoids</mark>
 
 # Projects Section
 # projects_title: Projects
