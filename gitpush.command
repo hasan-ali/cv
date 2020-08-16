@@ -4,7 +4,11 @@ cd ~/desktop/git/cv
 
 git add --all
 
-git commit -m "auto push from cv script"
+echo "enter commit input and press [enter]"
+
+read varinput
+
+git commit -m "$varinput"
 
 git push origin master
 
