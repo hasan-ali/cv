@@ -55,7 +55,7 @@ remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
-  style: compressed
+  #style: compressed
 
 plugins:
  - jekyll-seo-tag
