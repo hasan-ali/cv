@@ -1,0 +1,6 @@
+<div class="container extras-container">
+  <h3>{{ site.extras_title | default: "More About Me" }}</h3>
+  {% for extras in site.data.extras %}
+    {% include {{ extras.layout | default: 'left' | append: ".html" }} item=extras %}
+  {% endfor %}
+</div>

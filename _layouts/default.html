@@ -32,9 +32,10 @@
         {%- include publications.html -%}
       {%- endif -%}
 
-      {%- if site.more_content -%}
-        {%- include more.html -%}
+      {%- if site.data.extras.size > 0 -%}
+        {%- include extras.html -%}
       {%- endif -%}
+
 
     </div>
   </main>

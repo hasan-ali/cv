@@ -52,14 +52,26 @@
   }
 }
 
-.projects-container, .experience-container, .education-container {
+.projects-container, .experience-container, .education-container, .publications-container {
   h3 {
     margin-bottom: 0;
+    margin-left: 2rem;   /*here*/
+    margin-right: 2rem;  /*here*/
+  }
+}
+
+.extras-container {
+  h3 {
+    margin-bottom: -30px;
+    margin-left: 2rem;   /*here*/
+    margin-right: 2rem;  /*here*/
   }
 }
 
 .layout {
   margin-top: 3rem;
+  margin-left: 2rem;   /*here*/
+  margin-right: 2rem;  /*here*/
 
   .details {
     text-align: left;
